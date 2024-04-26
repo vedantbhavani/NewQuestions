@@ -1,0 +1,34 @@
+*{
+    scrollbar-width: none;
+}
+.questions{
+    border-top: 1px solid rgb(186, 168, 168);
+    border-bottom: 1px solid rgb(186, 168, 168);
+}
+img{
+    width: 3vw;
+    float: right;
+    margin-right: 2vw;
+    height: 7vh;
+    transition: 0.5s;
+}
+.imgshow{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.javabshow{
+    display: block !important;
+    font-weight: 600;
+    border-top: 1px solid rgb(186, 168, 168);
+}
+.changeimg{
+    margin: auto 0;
+    margin-bottom: 4vh;
+}
+.ques{
+    font-size:larger;
+    font-weight: 700;
+}
+.javab{
+    display: block ;
+}
