@@ -7,10 +7,7 @@ function App() {
   const ref = useRef(null)
   const showans = (i) => {
     console.log(i.answer)
-    ref.current.classList.add("javabshow")
-    ref.current.innerHTML = `
-      <p className='px-5 javab'> ${i.answer}</p>
-    `
+    ref.current.classList.add("javabshow");
   }
   return (
     <>  
